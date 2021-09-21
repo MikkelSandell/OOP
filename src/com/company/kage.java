@@ -1,20 +1,44 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class kage {
 
-    private double egg;
-    private double sugar;
-    private double cocoa;
-    private double flour;
-    private double bakingSoda;
-    private double vanillaSugar;
-    private double skimmedMilk;
-    private double oilMargarine;
+    private double egg = 2;
+    private double sugar = 300;
+    private double cocoa = 6;
+    private double flour = 250;
+    private double bakingSoda = 1;
+    private double vanillaSugar = 30;
+    private double skimmedMilk = 5;
+    private double oilMargarine = 5;
     private int persons;
 
+    public double getNumberOfEggs() {
+        return egg;
+    }
 
+    public double getGramsOfSugar() {
+        return sugar;
+    }
+
+    public double getGramsOfCocoa(){
+        return cocoa;
+    }
+
+    public double getGramsOfFlour(){
+        return flour;
+    }
+    public double getTblspBakingPowder() {
+        return bakingSoda;
+    }
+    public double getGramsOfVanillaSugar() {
+        return vanillaSugar;
+    }
+    public double getDeciliterOfskimmedMilk() {
+        return skimmedMilk;
+    }
+    public double getGramsOfOilMargarine(){
+        return oilMargarine;
+    }
 
     double getWeight(int persons) {
         this.egg = 0.16; //stk
