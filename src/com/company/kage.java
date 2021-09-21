@@ -15,14 +15,7 @@ public class kage {
     private int persons;
 
 
-    /*//udregning af kj i kagen
-    double kj = (egg * persons * 50 * 5.8) + (sugar * persons * 17) + (cocoa * persons * 16.82) + (flour * persons * 14.56) + (bakingSoda * persons * 7.31) + (vanillaSugar * persons *16.4) + (skimmedMilk * persons * 1.46) + (oilMargarine * persons * 29.84);
 
-    //display af kj
-		System.out.println("nu regner jeg mængden af kj i din kage some er ");
-		System.out.printf("%.2f", kj);
-		System.out.print("kj");
-		System.out.println("");*/
     double getWeight(int persons) {
         this.egg = 0.16; //stk
         this.sugar = 5; //g
@@ -42,7 +35,7 @@ public class kage {
                 + (skimmedMilk * persons * 30)
                 + oilMargarine * persons);
 
-       return weight;
+        return weight;
     }
     double getWeightBaked(int persons){
         this.egg = 0.16; //stk
@@ -63,7 +56,7 @@ public class kage {
                 + (skimmedMilk * persons * 30)
                 + oilMargarine * persons);
         double weightBaked = (weight/100) * 90;
-    return weightBaked;
+        return weightBaked;
 
     }
     double getEnergyInCake (int persons){
@@ -86,5 +79,3 @@ public class kage {
         return kj;
     }
 }
-
-

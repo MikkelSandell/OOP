@@ -20,7 +20,7 @@ public class Main {
         System.out.println(Lampe.toString());*/
 
         //cake
-        kage kage = new kage();
+        /*kage kage = new kage();
         System.out.printf("%.2f",kage.getWeight(4));
         System.out.print("g");
         System.out.println("");
@@ -28,7 +28,7 @@ public class Main {
         System.out.print("g");
         System.out.println("");
         System.out.printf("%.2f",kage.getEnergyInCake(4));
-        System.out.print("kj");
+        System.out.print("kj");*/
 
     }
 }
