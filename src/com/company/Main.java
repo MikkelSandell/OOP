@@ -16,8 +16,16 @@ public class Main {
         System.out.println(Dice.toString());*/
 
         //lampe
-        /*Lampe Lampe = new Lampe (true);
-        System.out.println(Lampe.toString());*/
+        Lampe Lampe = new Lampe();
+        Lampe Lampe2 = new Lampe();
+        Lampe Lampe3 = new Lampe();
+        Lampe.trykPåKontakt();
+        Lampe.trykPåKontakt();
+        Lampe.trykPåKontakt();
+        System.out.println(Lampe.toString());
+        System.out.println(Lampe2.toString());
+        System.out.println(Lampe3.toString());
+        System.out.println(" der er " + Lampe.getCount() + " Lamper");
 
         //cake
         /*kage kage = new kage();
